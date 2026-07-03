@@ -1,8 +1,9 @@
 import { DataTypes } from "sequelize";
 import { sequelize } from "../config/database.js";
 
-export const Product = sequelize.define(
-  "movie01",
+export const Movie = sequelize.define(
+//NOMBRE DE LA TABLA
+  "movie",
   {
     // Model attributes are defined here
     id: {
@@ -36,5 +37,3 @@ export const Product = sequelize.define(
     timestamp:false,
   },
 );
-
-export default movie01;
